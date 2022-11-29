@@ -5,21 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Coffee Shop Sales Platform</title>
+  <title>Cart</title>
 </head>
 <body>
   <header class="header">
-    <a href="/">
+    <a href="/index.html">
       <img class="logo" src="./sources/images/Logo-2-orange.png" alt="logo">
     </a>
-    <a href="/cart.html">
+    <a href="/">
       <img class="cart" src="./sources/images/shopping-cart.png" alt="cart">
     </a>
   </header>
-  <main class="main">
-    <h1 class="mainTitle">Sales Platform</h1>
-    <div id="container"></div>
+  <main>
+    <div id="cartWrapper">
+      <div>Producto</div>
+      <div>Precio</div>
+      <div>Cantidad</div>
+      <div>Subtotal</div>
+    </div>
+    <div id="productsList"></div>
+    <div id="totalPrice"></div>
   </main>
-  <script type="module" src="script.js"></script>
+  <script type="module" src="scriptCart.js"></script>
 </body>
 </html>
